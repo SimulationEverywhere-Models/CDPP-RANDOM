@@ -1,0 +1,108 @@
+#BeginMacro(rng-rule15)
+rule : 0 {randInt(100)} { ((-1,0) = 1 and (0,-1) = 1 and (1,0) = 1 and (0,1) = 1) and (if(randInt(3) = 2,1,0) = 1)}
+rule : 1 {randInt(100)} { ((-1,0) = 1 and (0,-1) = 1 and (1,0) = 1 and (0,1) = 0) and (if(randInt(3) = 2,1,0) = 1)}
+rule : 1 {randInt(100)} { ((-1,0) = 1 and (0,-1) = 1 and (1,0) = 0 and (0,1) = 1) and (if(randInt(3) = 2,1,0) = 1)}
+rule : 0 {randInt(100)} { ((-1,0) = 1 and (0,-1) = 1 and (1,0) = 0 and (0,1) = 0) and (if(randInt(3) = 2,1,0) = 1)}
+rule : 1 {randInt(100)} { ((-1,0) = 1 and (0,-1) = 0 and (1,0) = 1 and (0,1) = 1) and (if(randInt(3) = 2,1,0) = 1)}
+rule : 0 {randInt(100)} { ((-1,0) = 1 and (0,-1) = 0 and (1,0) = 1 and (0,1) = 0) and (if(randInt(3) = 2,1,0) = 1)}
+rule : 0 {randInt(100)} { ((-1,0) = 1 and (0,-1) = 0 and (1,0) = 0 and (0,1) = 1) and (if(randInt(3) = 2,1,0) = 1)}
+rule : 1 {randInt(100)} { ((-1,0) = 1 and (0,-1) = 0 and (1,0) = 0 and (0,1) = 0) and (if(randInt(3) = 2,1,0) = 1)}
+rule : 1 {randInt(100)} { ((-1,0) = 0 and (0,-1) = 1 and (1,0) = 1 and (0,1) = 1) and (if(randInt(3) = 2,1,0) = 1)}
+rule : 0 {randInt(100)} { ((-1,0) = 0 and (0,-1) = 1 and (1,0) = 1 and (0,1) = 0) and (if(randInt(3) = 2,1,0) = 1)}
+rule : 0 {randInt(100)} { ((-1,0) = 0 and (0,-1) = 1 and (1,0) = 0 and (0,1) = 1) and (if(randInt(3) = 2,1,0) = 1)}
+rule : 1 {randInt(100)} { ((-1,0) = 0 and (0,-1) = 1 and (1,0) = 0 and (0,1) = 0) and (if(randInt(3) = 2,1,0) = 1)}
+rule : 0 {randInt(100)} { ((-1,0) = 0 and (0,-1) = 0 and (1,0) = 1 and (0,1) = 1) and (if(randInt(3) = 2,1,0) = 1)}
+rule : 1 {randInt(100)} { ((-1,0) = 0 and (0,-1) = 0 and (1,0) = 1 and (0,1) = 0) and (if(randInt(3) = 2,1,0) = 1)}
+rule : 1 {randInt(100)} { ((-1,0) = 0 and (0,-1) = 0 and (1,0) = 0 and (0,1) = 1) and (if(randInt(3) = 2,1,0) = 1)}
+rule : 0 {randInt(100)} { ((-1,0) = 0 and (0,-1) = 0 and (1,0) = 0 and (0,1) = 0) and (if(randInt(3) = 2,1,0) = 1)}
+#EndMacro
+
+#BeginMacro(rng-rule63)
+rule : 0 {randInt(100)} { ((-1,0) = 1 and (0,-1) = 1 and (1,0) = 1 and (0,1) = 1 and (0,0) = 1) and (if(randInt(3) = 1,1,0) = 1)}
+rule : 1 {randInt(100)} { ((-1,0) = 1 and (0,-1) = 1 and (1,0) = 1 and (0,1) = 1 and (0,0) = 0) and (if(randInt(3) = 1,1,0) = 1)}
+rule : 1 {randInt(100)} { ((-1,0) = 1 and (0,-1) = 1 and (1,0) = 1 and (0,1) = 0 and (0,0) = 1) and (if(randInt(3) = 1,1,0) = 1)}
+rule : 0 {randInt(100)} { ((-1,0) = 1 and (0,-1) = 1 and (1,0) = 1 and (0,1) = 0 and (0,0) = 0) and (if(randInt(3) = 1,1,0) = 1)}
+rule : 1 {randInt(100)} { ((-1,0) = 1 and (0,-1) = 1 and (1,0) = 0 and (0,1) = 1 and (0,0) = 1) and (if(randInt(3) = 1,1,0) = 1)}
+rule : 0 {randInt(100)} { ((-1,0) = 1 and (0,-1) = 1 and (1,0) = 0 and (0,1) = 1 and (0,0) = 0) and (if(randInt(3) = 1,1,0) = 1)}
+rule : 0 {randInt(100)} { ((-1,0) = 1 and (0,-1) = 1 and (1,0) = 0 and (0,1) = 0 and (0,0) = 1) and (if(randInt(3) = 1,1,0) = 1)}
+rule : 1 {randInt(100)} { ((-1,0) = 1 and (0,-1) = 1 and (1,0) = 0 and (0,1) = 0 and (0,0) = 0) and (if(randInt(3) = 1,1,0) = 1)}
+rule : 1 {randInt(100)} { ((-1,0) = 1 and (0,-1) = 0 and (1,0) = 1 and (0,1) = 1 and (0,0) = 1) and (if(randInt(3) = 1,1,0) = 1)}
+rule : 0 {randInt(100)} { ((-1,0) = 1 and (0,-1) = 0 and (1,0) = 1 and (0,1) = 1 and (0,0) = 0) and (if(randInt(3) = 1,1,0) = 1)}
+rule : 0 {randInt(100)} { ((-1,0) = 1 and (0,-1) = 0 and (1,0) = 1 and (0,1) = 0 and (0,0) = 1) and (if(randInt(3) = 1,1,0) = 1)}
+rule : 1 {randInt(100)} { ((-1,0) = 1 and (0,-1) = 0 and (1,0) = 1 and (0,1) = 0 and (0,0) = 0) and (if(randInt(3) = 1,1,0) = 1)}
+rule : 0 {randInt(100)} { ((-1,0) = 1 and (0,-1) = 0 and (1,0) = 0 and (0,1) = 1 and (0,0) = 1) and (if(randInt(3) = 1,1,0) = 1)}
+rule : 1 {randInt(100)} { ((-1,0) = 1 and (0,-1) = 0 and (1,0) = 0 and (0,1) = 1 and (0,0) = 0) and (if(randInt(3) = 1,1,0) = 1)}
+rule : 1 {randInt(100)} { ((-1,0) = 1 and (0,-1) = 0 and (1,0) = 0 and (0,1) = 0 and (0,0) = 1) and (if(randInt(3) = 1,1,0) = 1)}
+rule : 0 {randInt(100)} { ((-1,0) = 1 and (0,-1) = 0 and (1,0) = 0 and (0,1) = 0 and (0,0) = 0) and (if(randInt(3) = 1,1,0) = 1)}
+rule : 1 {randInt(100)} { ((-1,0) = 0 and (0,-1) = 1 and (1,0) = 1 and (0,1) = 1 and (0,0) = 1) and (if(randInt(3) = 1,1,0) = 1)}
+rule : 0 {randInt(100)} { ((-1,0) = 0 and (0,-1) = 1 and (1,0) = 1 and (0,1) = 1 and (0,0) = 0) and (if(randInt(3) = 1,1,0) = 1)}
+rule : 0 {randInt(100)} { ((-1,0) = 0 and (0,-1) = 1 and (1,0) = 1 and (0,1) = 0 and (0,0) = 1) and (if(randInt(3) = 1,1,0) = 1)}
+rule : 1 {randInt(100)} { ((-1,0) = 0 and (0,-1) = 1 and (1,0) = 1 and (0,1) = 0 and (0,0) = 0) and (if(randInt(3) = 1,1,0) = 1)}
+rule : 0 {randInt(100)} { ((-1,0) = 0 and (0,-1) = 1 and (1,0) = 0 and (0,1) = 1 and (0,0) = 1) and (if(randInt(3) = 1,1,0) = 1)}
+rule : 1 {randInt(100)} { ((-1,0) = 0 and (0,-1) = 1 and (1,0) = 0 and (0,1) = 1 and (0,0) = 0) and (if(randInt(3) = 1,1,0) = 1)}
+rule : 1 {randInt(100)} { ((-1,0) = 0 and (0,-1) = 1 and (1,0) = 0 and (0,1) = 0 and (0,0) = 1) and (if(randInt(3) = 1,1,0) = 1)}
+rule : 0 {randInt(100)} { ((-1,0) = 0 and (0,-1) = 1 and (1,0) = 0 and (0,1) = 0 and (0,0) = 0) and (if(randInt(3) = 1,1,0) = 1)}
+rule : 0 {randInt(100)} { ((-1,0) = 0 and (0,-1) = 0 and (1,0) = 1 and (0,1) = 1 and (0,0) = 1) and (if(randInt(3) = 1,1,0) = 1)}
+rule : 1 {randInt(100)} { ((-1,0) = 0 and (0,-1) = 0 and (1,0) = 1 and (0,1) = 1 and (0,0) = 0) and (if(randInt(3) = 1,1,0) = 1)}
+rule : 1 {randInt(100)} { ((-1,0) = 0 and (0,-1) = 0 and (1,0) = 1 and (0,1) = 0 and (0,0) = 1) and (if(randInt(3) = 1,1,0) = 1)}
+rule : 0 {randInt(100)} { ((-1,0) = 0 and (0,-1) = 0 and (1,0) = 1 and (0,1) = 0 and (0,0) = 0) and (if(randInt(3) = 1,1,0) = 1)}
+rule : 1 {randInt(100)} { ((-1,0) = 0 and (0,-1) = 0 and (1,0) = 0 and (0,1) = 1 and (0,0) = 1) and (if(randInt(3) = 1,1,0) = 1)}
+rule : 0 {randInt(100)} { ((-1,0) = 0 and (0,-1) = 0 and (1,0) = 0 and (0,1) = 1 and (0,0) = 0) and (if(randInt(3) = 1,1,0) = 1)}
+rule : 0 {randInt(100)} { ((-1,0) = 0 and (0,-1) = 0 and (1,0) = 0 and (0,1) = 0 and (0,0) = 1) and (if(randInt(3) = 1,1,0) = 1)}
+rule : 1 {randInt(100)} { ((-1,0) = 0 and (0,-1) = 0 and (1,0) = 0 and (0,1) = 0 and (0,0) = 0) and (if(randInt(3) = 1,1,0) = 1)}
+
+#EndMacro
+
+#BeginMacro(rng-rule31)
+rule : 1 {randInt(100)} { ((-1,0) = 1 and (0,-1) = 1 and (1,0) = 1 and (0,1) = 1 and (0,0) = 1) and (if(randInt(3) = 0,1,0) = 1)}
+rule : 0 {randInt(100)} { ((-1,0) = 1 and (0,-1) = 1 and (1,0) = 1 and (0,1) = 1 and (0,0) = 0) and (if(randInt(3) = 0,1,0) = 1)}
+rule : 0 {randInt(100)} { ((-1,0) = 1 and (0,-1) = 1 and (1,0) = 1 and (0,1) = 0 and (0,0) = 1) and (if(randInt(3) = 0,1,0) = 1)}
+rule : 1 {randInt(100)} { ((-1,0) = 1 and (0,-1) = 1 and (1,0) = 1 and (0,1) = 0 and (0,0) = 0) and (if(randInt(3) = 0,1,0) = 1)}
+rule : 0 {randInt(100)} { ((-1,0) = 1 and (0,-1) = 1 and (1,0) = 0 and (0,1) = 1 and (0,0) = 1) and (if(randInt(3) = 0,1,0) = 1)}
+rule : 1 {randInt(100)} { ((-1,0) = 1 and (0,-1) = 1 and (1,0) = 0 and (0,1) = 1 and (0,0) = 0) and (if(randInt(3) = 0,1,0) = 1)}
+rule : 1 {randInt(100)} { ((-1,0) = 1 and (0,-1) = 1 and (1,0) = 0 and (0,1) = 0 and (0,0) = 1) and (if(randInt(3) = 0,1,0) = 1)}
+rule : 0 {randInt(100)} { ((-1,0) = 1 and (0,-1) = 1 and (1,0) = 0 and (0,1) = 0 and (0,0) = 0) and (if(randInt(3) = 0,1,0) = 1)}
+rule : 0 {randInt(100)} { ((-1,0) = 1 and (0,-1) = 0 and (1,0) = 1 and (0,1) = 1 and (0,0) = 1) and (if(randInt(3) = 0,1,0) = 1)}
+rule : 1 {randInt(100)} { ((-1,0) = 1 and (0,-1) = 0 and (1,0) = 1 and (0,1) = 1 and (0,0) = 0) and (if(randInt(3) = 0,1,0) = 1)}
+rule : 1 {randInt(100)} { ((-1,0) = 1 and (0,-1) = 0 and (1,0) = 1 and (0,1) = 0 and (0,0) = 1) and (if(randInt(3) = 0,1,0) = 1)}
+rule : 0 {randInt(100)} { ((-1,0) = 1 and (0,-1) = 0 and (1,0) = 1 and (0,1) = 0 and (0,0) = 0) and (if(randInt(3) = 0,1,0) = 1)}
+rule : 1 {randInt(100)} { ((-1,0) = 1 and (0,-1) = 0 and (1,0) = 0 and (0,1) = 1 and (0,0) = 1) and (if(randInt(3) = 0,1,0) = 1)}
+rule : 0 {randInt(100)} { ((-1,0) = 1 and (0,-1) = 0 and (1,0) = 0 and (0,1) = 1 and (0,0) = 0) and (if(randInt(3) = 0,1,0) = 1)}
+rule : 0 {randInt(100)} { ((-1,0) = 1 and (0,-1) = 0 and (1,0) = 0 and (0,1) = 0 and (0,0) = 1) and (if(randInt(3) = 0,1,0) = 1)}
+rule : 1 {randInt(100)} { ((-1,0) = 1 and (0,-1) = 0 and (1,0) = 0 and (0,1) = 0 and (0,0) = 0) and (if(randInt(3) = 0,1,0) = 1)}
+rule : 0 {randInt(100)} { ((-1,0) = 0 and (0,-1) = 1 and (1,0) = 1 and (0,1) = 1 and (0,0) = 1) and (if(randInt(3) = 0,1,0) = 1)}
+rule : 1 {randInt(100)} { ((-1,0) = 0 and (0,-1) = 1 and (1,0) = 1 and (0,1) = 1 and (0,0) = 0) and (if(randInt(3) = 0,1,0) = 1)}
+rule : 1 {randInt(100)} { ((-1,0) = 0 and (0,-1) = 1 and (1,0) = 1 and (0,1) = 0 and (0,0) = 1) and (if(randInt(3) = 0,1,0) = 1)}
+rule : 0 {randInt(100)} { ((-1,0) = 0 and (0,-1) = 1 and (1,0) = 1 and (0,1) = 0 and (0,0) = 0) and (if(randInt(3) = 0,1,0) = 1)}
+rule : 1 {randInt(100)} { ((-1,0) = 0 and (0,-1) = 1 and (1,0) = 0 and (0,1) = 1 and (0,0) = 1) and (if(randInt(3) = 0,1,0) = 1)}
+rule : 0 {randInt(100)} { ((-1,0) = 0 and (0,-1) = 1 and (1,0) = 0 and (0,1) = 1 and (0,0) = 0) and (if(randInt(3) = 0,1,0) = 1)}
+rule : 0 {randInt(100)} { ((-1,0) = 0 and (0,-1) = 1 and (1,0) = 0 and (0,1) = 0 and (0,0) = 1) and (if(randInt(3) = 0,1,0) = 1) }
+rule : 1 {randInt(100)} { ((-1,0) = 0 and (0,-1) = 1 and (1,0) = 0 and (0,1) = 0 and (0,0) = 0) and (if(randInt(3) = 0,1,0) = 1)}
+rule : 1 {randInt(100)} { ((-1,0) = 0 and (0,-1) = 0 and (1,0) = 1 and (0,1) = 1 and (0,0) = 1) and (if(randInt(3) = 0,1,0) = 1)}
+rule : 0 {randInt(100)} { ((-1,0) = 0 and (0,-1) = 0 and (1,0) = 1 and (0,1) = 1 and (0,0) = 0) and (if(randInt(3) = 0,1,0) = 1)}
+rule : 0 {randInt(100)} { ((-1,0) = 0 and (0,-1) = 0 and (1,0) = 1 and (0,1) = 0 and (0,0) = 1) and (if(randInt(3) = 0,1,0) = 1)}
+rule : 1 {randInt(100)} { ((-1,0) = 0 and (0,-1) = 0 and (1,0) = 1 and (0,1) = 0 and (0,0) = 0) and (if(randInt(3) = 0,1,0) = 1)}
+rule : 0 {randInt(100)} { ((-1,0) = 0 and (0,-1) = 0 and (1,0) = 0 and (0,1) = 1 and (0,0) = 1) and (if(randInt(3) = 0,1,0) = 1)}
+rule : 1 {randInt(100)} { ((-1,0) = 0 and (0,-1) = 0 and (1,0) = 0 and (0,1) = 1 and (0,0) = 0) and (if(randInt(3) = 0,1,0) = 1)}
+rule : 1 {randInt(100)} { ((-1,0) = 0 and (0,-1) = 0 and (1,0) = 0 and (0,1) = 0 and (0,0) = 1) and (if(randInt(3) = 0,1,0) = 1)}
+rule : 0 {randInt(100)} { ((-1,0) = 0 and (0,-1) = 0 and (1,0) = 0 and (0,1) = 0 and (0,0) = 0) and (if(randInt(3) = 0,1,0) = 1)}
+#EndMacro
+
+#BeginMacro(rng-rule47)
+rule : 1 {randInt(100)} { ((-1,0) = 1 and (0,-1) = 1 and (1,0) = 1 and (0,1) = 1) and (if(randInt(3) = 3,1,0) = 1)}
+rule : 0 {randInt(100)} { ((-1,0) = 1 and (0,-1) = 1 and (1,0) = 1 and (0,1) = 0) and (if(randInt(3) = 3,1,0) = 1)}
+rule : 0 {randInt(100)} { ((-1,0) = 1 and (0,-1) = 1 and (1,0) = 0 and (0,1) = 1) and (if(randInt(3) = 3,1,0) = 1)}
+rule : 1 {randInt(100)} { ((-1,0) = 1 and (0,-1) = 1 and (1,0) = 0 and (0,1) = 0) and (if(randInt(3) = 3,1,0) = 1)}
+rule : 0 {randInt(100)} { ((-1,0) = 1 and (0,-1) = 0 and (1,0) = 1 and (0,1) = 1) and (if(randInt(3) = 3,1,0) = 1)}
+rule : 1 {randInt(100)} { ((-1,0) = 1 and (0,-1) = 0 and (1,0) = 1 and (0,1) = 0) and (if(randInt(3) = 3,1,0) = 1)}
+rule : 1 {randInt(100)} { ((-1,0) = 1 and (0,-1) = 0 and (1,0) = 0 and (0,1) = 1) and (if(randInt(3) = 3,1,0) = 1)}
+rule : 0 {randInt(100)} { ((-1,0) = 1 and (0,-1) = 0 and (1,0) = 0 and (0,1) = 0) and (if(randInt(3) = 3,1,0) = 1)}
+rule : 0 {randInt(100)} { ((-1,0) = 0 and (0,-1) = 1 and (1,0) = 1 and (0,1) = 1) and (if(randInt(3) = 3,1,0) = 1)}
+rule : 1 {randInt(100)} { ((-1,0) = 0 and (0,-1) = 1 and (1,0) = 1 and (0,1) = 0) and (if(randInt(3) = 3,1,0) = 1)}
+rule : 1 {randInt(100)} { ((-1,0) = 0 and (0,-1) = 1 and (1,0) = 0 and (0,1) = 1) and (if(randInt(3) = 3,1,0) = 1)}
+rule : 0 {randInt(100)} { ((-1,0) = 0 and (0,-1) = 1 and (1,0) = 0 and (0,1) = 0) and (if(randInt(3) = 3,1,0) = 1)}
+rule : 1 {randInt(100)} { ((-1,0) = 0 and (0,-1) = 0 and (1,0) = 1 and (0,1) = 1) and (if(randInt(3) = 3,1,0) = 1)}
+rule : 0 {randInt(100)} { ((-1,0) = 0 and (0,-1) = 0 and (1,0) = 1 and (0,1) = 0) and (if(randInt(3) = 3,1,0) = 1)}
+rule : 0 {randInt(100)} { ((-1,0) = 0 and (0,-1) = 0 and (1,0) = 0 and (0,1) = 1) and (if(randInt(3) = 3,1,0) = 1)}
+rule : 1 {randInt(100)} { ((-1,0) = 0 and (0,-1) = 0 and (1,0) = 0 and (0,1) = 0) and (if(randInt(3) = 3,1,0) = 1)}
+#EndMacro

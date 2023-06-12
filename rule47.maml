@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDPlusPlus_Builder_Version_1.0.0>
+
+  <comment>/******************************************************************* </comment>
+  <comment>* </comment>
+  <comment>*  DESCRIPTION:  building RNG model using CD++ for rule 47,  </comment>
+  <comment>* </comment>
+  <comment>*  AUTHOR: Abdulelah Alsanad </comment>
+  <comment>* </comment>
+  <comment>*  EMAIL: aalsa079@site.uottawa.ca </comment>
+  <comment>* </comment>
+  <comment>*  DATE: 1/12/2005 </comment>
+  <comment>* </comment>
+
+  <comment>*******************************************************************/ </comment>
+  <top>
+    <components> rng </components>
+  </top>
+  <rng>
+    <type> cell </type>
+    <width> 8 </width>
+    <height> 8 </height>
+    <delay> transport </delay>
+    <defaultDelayTime> 100 </defaultDelayTime>
+    <border> wrapped  </border>
+    <neighbors> rng(-1,0) </neighbors>
+    <neighbors> rng(0,-1) rng(0,0) rng(0,1) </neighbors>
+    <neighbors> rng(1,0) </neighbors>
+    <initialvalue> 0 </initialvalue>
+    <initialrowvalue>  0 00010000 </initialrowvalue>
+    <comment>initialrowvalue :  1 11010101 </comment>
+    <comment>initialrowvalue :  2 00001010 </comment>
+    <comment>initialrowvalue :  3 11010100 </comment>
+    <comment>initialrowvalue :  4 01010111 </comment>
+    <comment>initialrowvalue :  6 11111111 </comment>
+    <comment>initialrowvalue :  7 10100011 </comment>
+    <localtransition> rng-rule47 </localtransition>
+    <comment> Rule 47 </comment>
+  </rng>
+</CDPlusPlus_Builder_Version_1.0.0>
